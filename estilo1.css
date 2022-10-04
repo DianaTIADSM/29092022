@@ -54,3 +54,93 @@ ul.horizontal li {
   float: left;
   padding: 0 10px;
 }
+
+.active {
+  background-color: #b194f8;
+  color: #fff;
+}
+
+#bloque1,
+#bloque2,
+#bloque3,
+#bloque4,
+#bloque5,
+#bloque6,
+#bloque7,
+#bloque8,
+#bloque9,
+#bloque10 {
+  width: 50%;
+  height: 150px;
+  background: #ccc;
+  margin: 20px;
+}
+
+.borde1 {
+  border: #fc0000;
+  border-style: dotted;
+}
+
+.borde2 {
+  border: #005dcf;
+  border-style: dashed;
+}
+
+.borde3 {
+  border: #efbf62;
+  border-style: solid;
+}
+
+.borde4 {
+  border: #ba4a6e;
+  border-style: double;
+}
+
+.borde5 {
+  border: #4d9921;
+  border-style: groove;
+}
+
+.borde6 {
+  border: #bfffff;
+  border-style: ridge;
+}
+
+.borde7 {
+  border: #f3829a;
+  border-style: inset;
+}
+
+.borde8 {
+  border: #8c8477;
+  border-style: outset;
+}
+
+.borde9 {
+  border: #963542;
+  border-style: none;
+}
+
+.borde10 {
+  border: #4a6aba;
+  border-style: hidden;
+}
+
+.margen1 {
+  margin: 200px;
+}
+
+.margen2 {
+  margin: 200px 0px !important;
+}
+
+.margen3 {
+  margin: 0px;
+}
+
+.margen {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-style: double;
+  background-color: #8c8477;
+}
